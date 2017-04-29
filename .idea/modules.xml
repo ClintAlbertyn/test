@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/intellijproject.iml" filepath="$PROJECT_DIR$/intellijproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scalatesting/scalatesting.iml" filepath="$PROJECT_DIR$/scalatesting/scalatesting.iml" />
+    </modules>
+  </component>
+</project>
