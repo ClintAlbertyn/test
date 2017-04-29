@@ -11,5 +11,42 @@
 
     <artifactId>scalatesting</artifactId>
 
+    <properties>
+        <spark.version>2.0.0</spark.version>
+        <chill.version>0.7.2</chill.version>
+        <algebird.version>0.11.0</algebird.version>
+        <kafka.clients.version>0.8.2.1</kafka.clients.version>
+        <avro.version>1.7.7</avro.version>
+        <spark-cassandra-connector.version>1.6.1</spark-cassandra-connector.version>
+        <cassandra-driver-core.version>3.0.1</cassandra-driver-core.version>
+        <nscala-time.version>2.6.0</nscala-time.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>${spark.version}</version>
+            <scope>compile</scope>
+            <!-- provided -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>${spark.version}</version>
+            <scope>compile</scope>
+            <!-- provided -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>${spark.version}</version>
+            <scope>compile</scope>
+            <!-- provided -->
+        </dependency>
+
+    </dependencies>
 
 </project>
